@@ -1,34 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
 
+    <title>Koppula veera venkata surya Teja | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <!-- Navigation -->
+    <nav aria-label="Main Navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+
     <!-- Home Section -->
-    <section id="home">
+    <header id="home">
+
         <h1>Welcome to My Portfolio</h1>
-    </section>
+
+        <p>
+            Hello! I am Koppula veera venkata surya Teja,
+            an aspiring software developer.
+        </p>
+
+    </header>
+
 
     <!-- Hero Section -->
     <section id="hero">
-        <h2>Hello, I'm Surya teja</h2>
-        <p> Web Developer</p>
-        <button>Contact Me</button>
+        <h2>Hi, I'm Koppula veera venkata surya Teja</h2>
+
+        <p id="hero-text">
+            Web Development Intern | Aspiring Software Developer
+        </p>
+
+        <button id="changeTextBtn">
+            Click Me
+        </button>
+
+        <br><br>
+
+        <a href="#about">Learn More About Me</a>
     </section>
+
 
     <!-- About Section -->
     <section id="about">
+
         <h2>About Me</h2>
+
         <p>
-            I am learning HTML, CSS, JavaScript and Java.
-            I enjoy building websites and improving my programming skills.
+            I am passionate about web development and interested in
+            creating modern and responsive websites.
         </p>
+
+        <p>
+            Through my internship, I am developing practical skills
+            in HTML, CSS, JavaScript, Git, and GitHub.
+        </p>
+
     </section>
 
+
+    <!-- Skills Section -->
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git & GitHub</li>
+        </ul>
+
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <article>
+            <h3>Bachelor's Degree</h3>
+
+            <p>
+                Computer Science / Information Technology
+            </p>
+
+            <p>
+                Currently pursuing my degree and developing
+                my technical skills.
+            </p>
+        </article>
+
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <!-- Project 1 -->
+            <article class="project-card">
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    A responsive personal portfolio website created using
+                    HTML, CSS, and JavaScript.
+                </p>
+
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+
+                <a href="day7.html" target="_blank">View Project</a>
+            </article>
+
+
+            <!-- Project 2 -->
+            <article class="project-card">
+                <h3>LifeLinkAI</h3>
+
+                <p>
+                    A project designed to find donors & blood data information and facilitate the blood donors in a smart way to track the persons nearby and donate blood to emergency services. It helps to maintain
+                    and organize basic blood donation records.
+                </p>
+
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+
+                <a href="lifelinkai.html" target="_blank">View Project</a>
+            </article>
+
+
+            <!-- Project 3 -->
+            <article class="project-card">
+                <h3>Research Integrity System</h3>
+
+                <p>
+                    **Smart Research Integrity Validator** is a smart academic platform that promotes research integrity and academic honesty.
+                     It helps manage **attendance, plagiarism checking, student performance, feedback, and academic records** in one place.
+
+                </p>
+
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+
+                <a href="1pro.html" target="_blank">View Project</a>
+            </article>
+
+        </div>
+
+    </section>
+<!-- Resume Section -->
+    <section id="resume">
+
+        <h2>My Resume</h2>
+
+        <p>
+            You can download my resume to learn more about my
+            education, skills, projects, and experience.
+        </p>
+
+        <a href="resume.pdf" download class="resume-btn">
+            Download Resume
+        </a>
+
+    </section>
+
+
+    <!-- Experience Section -->
+    <section id="experience">
+
+        <h2>My Experience</h2>
+
+        <article class="experience-card">
+
+            <h3>Web Development Intern</h3>
+
+            <p><strong>Codomax Digital Solutions</strong></p>
+
+            <p>
+                Currently developing practical skills in web development
+                through a project-based internship.
+            </p>
+
+            <p>
+                Working with HTML, CSS, JavaScript, Git, and GitHub
+                while building a responsive personal portfolio website.
+            </p>
+
+        </article>
+
+    </section>
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>
+        Feel free to connect with me through the links below
+        or send me a message using the form.
+    </p>
+
+    <!-- Social Links -->
+    <div class="social-links">
+
+        <a href="https://github.com/" target="_blank">
+            GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/" target="_blank">
+            LinkedIn
+        </a>
+
+        <a href="mailto:your-email@example.com">
+            Email
+        </a>
+
+    </div>
+
+
+    <!-- Contact Form -->
+    <form id="contactForm">
+
+        <label for="name">Name:</label>
+
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+        >
+
+
+        <label for="email">Email:</label>
+
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+        >
+
+
+        <label for="message">Message:</label>
+
+        <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Enter your message"
+            required
+        ></textarea>
+
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+    <p id="formMessage"></p>
+
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            &copy; 2026 Koppula veera venkata surya Teja.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+    <button id="scrollTopBtn">↑ Top</button>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
